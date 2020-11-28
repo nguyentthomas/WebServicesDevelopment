@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- removed from listers tag xmlns="http://www.uts.edu.au/31284/wsd-diary"-->
+<listers xmlns="http://www.uts.edu.au/31284/wsd-diary"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-diary Listers.xsd">
+    <lister>
+        <email>thomas.nguyen@hotmail.com</email>
+        <userName>Thomas Qi</userName>
+        <password>thom2123</password>
+        <DOB>1/1/1999</DOB>
+    </lister>
+    <lister>
+        <email>henry.dinher2@hotmail.com</email>
+        <userName>Henry Qi</userName>
+        <password>henr1234</password>
+        <DOB>1/1/1999</DOB>
+    </lister>
+    <lister>
+        <email>Pengfei145@hotmail.com</email>
+        <userName>Pengfei Qi</userName>
+        <password>peng1234</password>
+        <DOB>1/1/1999</DOB>
+    </lister>
+    <lister>
+        <email>henry90@gmail.com</email>
+        <userName>Ddinhers Qi</userName>
+        <password>henr1234</password>
+        <DOB>1/1/1999</DOB>
+    </lister>
+</listers>
