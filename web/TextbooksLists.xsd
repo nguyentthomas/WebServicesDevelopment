@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.uts.edu.au/31284/wsd-diary"
+    xmlns="http://www.uts.edu.au/31284/wsd-diary"
+    elementFormDefault="qualified">
+
+
+    <xs:simpleType name="title">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="author">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="category">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="number">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="."/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="lister">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([A-Z][a-z]+)(([\s])([A-Z][a-z]+))*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="abstract">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ISBN">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="edition">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="yearofPublication">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z][0-9]{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="publisher">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="condition">
+        <xs:restriction base="xs:string">
+            
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+
+
+<xs:element name="TextbooksLists">
+
+    <xs:complexType mixed="true">
+        <xs:sequence>
+            <xs:element name="Textbooks" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType mixed="true">
+                    <xs:sequence>
+                        <xs:element name="title" type="title"/>
+                        <xs:element name="author" type="author"/>
+                        <xs:element name="category" type="category"/>
+                        <xs:element name="number" type="number"/>
+
+                        <xs:element name="thisbooklist" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType mixed="true">
+                                <xs:sequence>
+                                    <xs:element name="Textbook" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType mixed="true">
+                                            <xs:sequence>
+                                                <xs:element name="lister" type="xs:string"/>
+                                                <xs:element name="abstract" type="xs:string"/>
+                                                <xs:element name="publicationData" minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:complexType mixed="true">
+                                                        <xs:sequence>
+                                                            <xs:element name="ISBN" type="ISBN"/>
+                                                            <xs:element name="edition" type="edition"/>
+                                                            <xs:element name="yearofPublication" type="yearofPublication"/>
+                                                            <xs:element name="publisher" type="publisher"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="condition" type="condition"/>
+
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:element>
+</xs:schema>

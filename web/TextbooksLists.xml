@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="TextbooksLists.xsl"?> 
+<!-- removed from TextbooksLists tag xmlns="http://www.uts.edu.au/31284/wsd-diary"-->
+<TextbooksLists xmlns="http://www.uts.edu.au/31284/wsd-diary"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-diary TextbooksLists.xsd">
+    <Textbooks>
+        <title>JSP and XML: integrating XML and web services in your JSP application</title>
+        <author>Casey Kochmer and Erica Frandsen</author>
+        <category>JavaServer pages</category>
+        <number>4</number>
+        <thisbooklist>
+            <Textbook>
+                <lister>Thomas Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Poor</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Pengfei Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Fair</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Henry Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>Second Edition</edition>
+                    <yearofPublication>c2008</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Good</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Thomas Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>Forth Edition</edition>
+                    <yearofPublication>c2018</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>New</condition>
+            </Textbook>
+        </thisbooklist>
+    </Textbooks>
+
+    <Textbooks>
+        <title>Java and XML</title>
+        <author>Brett D. McLaughlin and Justin Edelson</author>
+        <category>Web publishing</category>
+        <number>3</number>
+        <thisbooklist>
+            <Textbook>
+                <lister>Henry Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>New</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Henry Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Poor</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Thomas Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Poor</condition>
+            </Textbook>
+        </thisbooklist>
+    </Textbooks>
+
+    <Textbooks>
+        <title>Building Web services with Java : making sense of XML, SOAP, WSDL, and UDDI</title>
+        <author> Steve Graham ... [et al.]</author>
+        <category>Application software -- Development.</category>
+        <number>2</number>
+        <thisbooklist>
+            <Textbook>
+                <lister>Thomas Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Poor</condition>
+            </Textbook>
+            <Textbook>
+                <lister>Pengfei Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Fair</condition>
+            </Textbook>
+        </thisbooklist>
+    </Textbooks>
+
+    <Textbooks>
+        <title>Routing and switching essentials companion guide</title>
+        <author>Cisco Networking Academy</author>
+        <category>Telecommunication -- Switching systems</category>
+        <number>1</number>
+        <thisbooklist>
+            <Textbook>
+                <lister>Thomas Qi</lister>
+                <abstract>
+                </abstract>
+                <publicationData>
+                    <ISBN>0672323540</ISBN>
+                    <edition>First Edition</edition>
+                    <yearofPublication>c2002</yearofPublication>
+                    <publisher>Boston: Addison-Wesley</publisher>
+                </publicationData>
+                <condition>Poor</condition>
+            </Textbook>
+        </thisbooklist>
+    </Textbooks>
+
+</TextbooksLists>

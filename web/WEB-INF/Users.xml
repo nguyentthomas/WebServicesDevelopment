@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Users xmlns="http://www.uts.edu.au/31284/wsd-diary"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-diary Users.xsd">    
+
+    <user>
+        <email>Alice.Potter01@student.uts.edu.au</email>
+        <name>Alice Potter</name>
+    </user>
+
+</Users>
